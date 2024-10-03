@@ -67,8 +67,7 @@ def extract_solution(code):
 
 def main():
     eval_apps = apps_metric()
-    # for seed in [27, 42, 101, 134, 169]:
-    for seed in [27]:
+    for seed in [27, 42, 101, 134, 169]:
         data = Dataset.from_json(f"data/2shot_demonstration_{seed}seed.json")
         dataset = data.map(
             lambda x: {"tmc": mc_transform(x["problem_description"], x["sc"])}
