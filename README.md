@@ -1,9 +1,11 @@
 # Revisiting the Impact of Pursuing Modularity for Code Generation
-Official Repository for "Revisiting the Impact of Pursuing Modularity for Code Generation"
+Official Repository for "Revisiting the Impact of Pursuing Modularity for Code Generation" [[Paper(arXiv)](https://arxiv.org/abs/2407.11406)]
 
-Investigated the impact of code modularity, as measured by the proposed MoS metric, on the performance of LLMs for NL2Code generation.
+Deokyeong Kang, Kijung Seo, Taeuk Kim. _**Accepted to EMNLP 2024 Findings**_
+
 
 ## Contents
+
 * apps: source codes for APPS dataset
   * In-Context Learning: icl.py
 * codecontests: source codes for CodeContests dataset
